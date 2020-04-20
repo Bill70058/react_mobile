@@ -1,0 +1,56 @@
+.list {
+  height: 100%;
+  position: relative;
+
+  .tabBar {
+    background-color: #f3f3f3;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    .icon-back {
+      color: #a0a0a0;
+    }
+
+    .search {
+      position: absolute;
+      top: 13px;
+      left: 30px;
+      width: 80%;
+      padding-left: 8px;
+      display: flex;
+      background-color: #fff;
+      border-radius: 5px;
+
+      .location {
+        width: 55px;
+        font-size: 14px;
+        margin: 2px 2px;
+        border-right: 1px solid #ccc;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        .iconfont {
+          font-size: 14px !important;
+        }
+      }
+
+      .am-search {
+        padding-left: 100px;
+        flex: 1;
+        background-color: rgba($color: #f5f5f9, $alpha: 0.0);
+        height: 28px;
+        padding: 0;
+      }
+    }
+
+    .icon-map {
+      position: absolute;
+      top: 18px;
+      right: 15px;
+      color: #21b97a;
+      font-size: 20px !important;
+    }
+  }
+}

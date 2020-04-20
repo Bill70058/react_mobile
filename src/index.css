@@ -1,13 +1,30 @@
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
+  color: #333;
+  font-family: 'Microsoft yaHei';
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  /* 去掉轮播图chrome浏览器的警告 */
+  touch-action: pan-y;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+
+html,
+body,
+#root,
+#App {
+  height: 100%;
 }
